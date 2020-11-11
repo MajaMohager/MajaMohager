@@ -1,0 +1,49 @@
+.my-nav{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    color: white !important;
+    }
+
+.navbar-brand img{
+    width: 70px;
+    height: 50px;
+}
+
+.carousel-inner {
+    filter: opacity(0.5);
+}
+
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.footer {
+    bottom: 5px;
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    color: white;
+}
+
+.login {
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    top: 56%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+}
