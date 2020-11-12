@@ -1,5 +1,10 @@
 ### Hi there 👋
 
+I'm currently working on a website for my hobby as a photographer. 
+I will ad a login and a guest part. 
+
+if you want to reach me (the developer) you can email me @ danielle.hamrin@cmeducations.se
+
 <!--
 **MajaMohager/MajaMohager** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
