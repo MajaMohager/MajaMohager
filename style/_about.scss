@@ -1,0 +1,18 @@
+#about {
+    display: flex;
+    
+    #hejtext {
+        flex: 2;
+        text-align: center;
+    }
+
+    #pic {
+        flex: 1;
+
+        img {
+            object-fit: cover;
+            width: 250px;
+            border-radius: 54px;
+        }
+    }
+}

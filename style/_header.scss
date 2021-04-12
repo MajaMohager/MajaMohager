@@ -1,0 +1,29 @@
+header {
+    background-color: #014040;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+    #fb, 
+    #insta {
+        width: 75px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #f2bdc7;
+        text-transform: uppercase;
+    }
+
+    #nav-links {
+        display: flex;
+        list-style: none;
+        
+        a {
+            margin: 0.2rem;
+            padding: 1rem 0.5rem;
+        }
+    }
+}

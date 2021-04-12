@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.continer {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+p {
+  margin: 2rem 0;
+}
+
+header {
+  background-color: #014040;
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+}
+
+header #fb,
+header #insta {
+  width: 75px;
+}
+
+header a {
+  text-decoration: none;
+  color: #f2bdc7;
+  text-transform: uppercase;
+}
+
+header #nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header #nav-links a {
+  margin: 0.2rem;
+  padding: 1rem 0.5rem;
+}
+
+#head-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#head-picture img {
+  width: 95%;
+  border-radius: 54px;
+  margin-top: -5px;
+}
+
+.continer {
+  width: 80%;
+}
+
+.continer h1 {
+  text-align: center;
+}
+
+.continer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.continer div img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 54px;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about #hejtext {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+}
+
+#about #pic {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#about #pic img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+  border-radius: 54px;
+}
+
+footer {
+  color: #f2bdc7;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #014040;
+  width: 100%;
+  height: 5rem;
+}
+
+footer #copy a {
+  text-decoration: none;
+  color: #f2bdc7;
+}
+
+footer #fotsns a {
+  text-decoration: none;
+}
+
+footer #fotsns img {
+  width: 30px;
+  margin: 0 20px;
+}
+/*# sourceMappingURL=main.css.map */
