@@ -1,11 +1,12 @@
 #head-picture {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 
-    img {
-        width: 95%;
-        border-radius: 54px;
-        margin-top: -5px;
-    }
+  img {
+    width: 95%;
+    border-radius: 54px;
+    margin-top: -10px;
+    opacity: 0.9;
+  }
 }
